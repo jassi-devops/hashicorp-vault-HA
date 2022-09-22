@@ -14,7 +14,7 @@ If you are watching the old guide for Kubernetes 1.17, go [here](..\vault\readme
 Lets create a Kubernetes cluster to play with using [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
 ```
-cd hashicorp/vault-2022
+cd hashicorp/vault
 
 kind create cluster --name vault --image kindest/node:v1.21.1 --config kind.yaml
 ```
